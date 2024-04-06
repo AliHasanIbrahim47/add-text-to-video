@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+
+.app {
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.video-wrapper {
+  display: flex;
+  position: relative;
+}
+
+video {
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.control-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customButton {
+  margin-right: 20px;
+  margin-top: 20px;
+}
